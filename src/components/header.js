@@ -2,15 +2,12 @@ import React from 'react';
 
 const Header = () => {
   return (
+    
     <header>
-      <h1>Augusto's Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div className='entry'>
+        <h1>Hi, my name is Augusto</h1>
+      </div>
+      
     </header>
   );
 };
