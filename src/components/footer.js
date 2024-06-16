@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const footer = () => {
+const Footer = () => {
     return (
         <footer>
             <p>Copyright &copy; 2024</p>
@@ -10,5 +10,5 @@ const footer = () => {
 }
 
 
-export default footer
+export default Footer
 
