@@ -1,3 +1,8 @@
+/* setando as iportace=oes do bootstrap e da api do google fonts no css para nao sobreescrever as dependencias */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
 body{
   font-family: 'Chewy', cursive;
   margin: 0;
@@ -11,19 +16,51 @@ body{
 
 .entry{
   text-align: center;
-  color: rgb(95, 32, 183);
-  border: rgb(62, 80, 244) 1px solid;
+  color: rgb(92, 77, 222);
   border-radius: 10px;
-  width: 350px;
-  padding: 1%;
-  font-size:smaller;
+  width: 250px;
+  padding-top: 10px;
+  background-color: rgba(62, 80, 244, 0.1); /* Cor do background com transparência */
+  transition: color 0.4s ease;
+  /* box-shadow: 0 0 0 1px rgba(62, 80, 244, 0.5); */
+}
+
+.entry h5:hover{
+  color: rgba(62, 80, 244, 0.5);
+  transition: color 0.4s ease;
+
 }
 
 header{
   width: 365px;
 }
 
+
 .container{
   padding: 50px;
   margin-top: 10rem;
+}
+
+.small-image {
+  width: 200px; /* Defina a largura desejada */
+  height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+}
+
+#about{
+  padding-top:1%;
+}
+
+#imgCol img{
+  margin-left: 20px;
+  margin-top: -40px; 
+  margin-bottom: 20px
+}
+
+#content p {
+  transition: transform 0.5s ease; 
+}
+
+#content p:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
 }
