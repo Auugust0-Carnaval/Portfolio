@@ -5,7 +5,7 @@ const Header = () => {
     
     <header>
       <div className='entry'>
-        <h1>Hi, my name is Augusto</h1>
+        <h5>Hi, my name is Augusto</h5>
       </div>
       
     </header>
