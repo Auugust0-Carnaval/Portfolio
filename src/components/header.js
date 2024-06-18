@@ -1,13 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ text }) => {
   return (
-    
     <header>
       <div className='entry'>
-        <h5>Hi, my name is Augusto</h5>
+        <h5>{text}</h5>
       </div>
-      
     </header>
   );
 };
