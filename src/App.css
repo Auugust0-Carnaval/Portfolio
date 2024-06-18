@@ -64,3 +64,13 @@ header{
   cursor: pointer;
   transform: scale(1.1); 
 }
+
+.flags img{
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.5s ease; 
+  
+}
+.flags img:hover{
+  transform: scale(1.1);
+}
