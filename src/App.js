@@ -1,7 +1,10 @@
+import './App.css';
 import React, { useState } from 'react';
 import Header from './components/header';
 import About from './components/about';
-import Footer from './components/footer';
+// import Footer from './components/footer';
+
+
 
 const App = () => {
   const [language, setLanguage] = useState('en'); //setando valor inicial do idioma da aplicacao como ingles
@@ -22,7 +25,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className='container'>
       <Header text={text[language].header} />
       <About text={text[language].about} changeLanguage={changeLanguage} />
     </div>
