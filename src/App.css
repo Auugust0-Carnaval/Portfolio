@@ -28,11 +28,12 @@ body{
 .entry h5:hover{
   color: rgba(62, 80, 244, 0.5);
   transition: color 0.4s ease;
+  cursor: pointer;
 
 }
 
 header{
-  width: 365px;
+  width: 350px;
 }
 
 

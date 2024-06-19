@@ -26,8 +26,8 @@ const App = () => {
 
   return (
     <div className='container'>
-      <Header text={text[language].header} />
-      <About text={text[language].about} changeLanguage={changeLanguage} />
+      <Header text={text[language].header} changeLanguage={changeLanguage} />
+      <About text={text[language].about}  />
     </div>
   );
 };
