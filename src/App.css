@@ -75,3 +75,34 @@ header{
 .flags img:hover{
   transform: scale(1.1);
 }
+
+#unity path{
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.5s ease; 
+}
+#unity path:hover{
+  transform: scale(1.1);
+  color: rgb(0, 0, 0);
+
+}
+
+#unity svg{
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.5s ease; 
+}
+#unity svg:hover{
+  transform: scale(1.1);
+  color: rgb(0, 0, 0);
+
+}
+
+.img-fluid{
+  transition: transform 0.5s ease; 
+}
+
+.img-fluid:hover{
+  transform: scale(2.0);
+}
+
