@@ -2,6 +2,8 @@ import './App.css';
 import React, { useState } from 'react';
 import Header from './components/header';
 import About from './components/about';
+import Projects from './pages/Projects';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import Footer from './components/footer';
 
 
@@ -28,6 +30,7 @@ const App = () => {
     <div className='container'>
       <Header text={text[language].header} changeLanguage={changeLanguage} />
       <About text={text[language].about}  />
+      <Projects />
     </div>
   );
 };
