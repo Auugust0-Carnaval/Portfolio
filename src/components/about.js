@@ -1,6 +1,6 @@
 import React from 'react';
 import userImage from "./Img/personProgrammer.png";
-const About = ({ text}) => {
+const About = ({text}) => {
   return (
     <div className="row" id="about">
       <div className="col-8" id="content">
