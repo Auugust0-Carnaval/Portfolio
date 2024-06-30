@@ -1,18 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJava, faNodeJs, faAngular, faUnity } from '@fortawesome/free-brands-svg-icons';
 
 const Projects = () => {
-    // const [showImage, setShowImage] = useState(false);
-
-    // const handleShowImage = () => {
-    //     setShowImage(true);
-    // };
-
-    // const handleCloseImage = () => {
-    //     setShowImage(false);
-    // };
-
     return (
         <div className="project">
             <div className="row">
