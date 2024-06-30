@@ -10,7 +10,8 @@ const Projects = () => {
                     <a href='https://github.com/Auugust0-Carnaval/BYTEBOT'>
                         <FontAwesomeIcon 
                             icon={faNodeJs} 
-                            style={{ color: 'white', fontSize: '3vw', cursor: 'pointer' }} 
+                            className="icon" 
+                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
                         />
                     </a>
                 </div>
@@ -18,7 +19,8 @@ const Projects = () => {
                     <a href='https://github.com/Auugust0-Carnaval/TCC-AmoPatasFrontend'>
                         <FontAwesomeIcon 
                             icon={faAngular} 
-                            style={{ color: 'white', fontSize: '3vw', cursor: 'pointer' }} 
+                            className="icon" 
+                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
                         />
                     </a>
                 </div>
@@ -26,7 +28,8 @@ const Projects = () => {
                     <a href='https://github.com/Auugust0-Carnaval/2DGAME'>
                         <FontAwesomeIcon 
                             icon={faUnity} 
-                            style={{ color: 'white', fontSize: '3vw', cursor: 'pointer' }} 
+                            className="icon" 
+                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
                         />
                     </a>
                 </div>
@@ -34,13 +37,12 @@ const Projects = () => {
                     <a href='https://github.com/Auugust0-Carnaval/JPA-API'>
                         <FontAwesomeIcon 
                             icon={faJava} 
-                            style={{ color: 'white', fontSize: '3vw', cursor: 'pointer' }} 
+                            className="icon" 
+                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
                         />
                     </a>
                 </div>
             </div>
-
-            
         </div>
     );
 };

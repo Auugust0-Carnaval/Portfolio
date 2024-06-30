@@ -1,20 +1,19 @@
-/* setando as iportace=oes do bootstrap e da api do google fonts no css para nao sobreescrever as dependencias */
-
+/* Importações do Bootstrap e Google Fonts */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
-body{
-  font-family: 'Chewy', cursive;
+/* Estilos personalizados */
+body {
+  font-family: 'Chewy', cursive !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background: linear-gradient(to right, #619bff, #3a51ba);
   background-size: cover;
   background-position: center;
-
 }
 
-.entry{
+.entry {
   text-align: center;
   color: rgb(92, 77, 222);
   border-radius: 10px;
@@ -25,19 +24,17 @@ body{
   /* box-shadow: 0 0 0 1px rgba(62, 80, 244, 0.5); */
 }
 
-.entry h5:hover{
+.entry h5:hover {
   color: rgba(62, 80, 244, 0.5);
   transition: color 0.4s ease;
   cursor: pointer;
-
 }
 
-header{
+header {
   width: 350px;
 }
 
-
-.container{
+.container {
   padding: 50px;
   margin-top: 10rem;
 }
@@ -47,14 +44,14 @@ header{
   height: auto; /* Ajusta a altura automaticamente para manter a proporção */
 }
 
-#about{
-  padding-top:1%;
+#about {
+  padding-top: 1%;
 }
 
-#imgCol img{
+#imgCol img {
   margin-left: 20px;
   margin-top: -40px; 
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 #content p {
@@ -66,44 +63,43 @@ header{
   transform: scale(1.1); 
 }
 
-.flags img{
-  cursor: pointer;
-  border-radius: 10px;
-  transition: transform 0.5s ease; 
-  
-}
-.flags img:hover{
-  transform: scale(1.1);
-}
-
-.col-1 path{
+.flags img {
   cursor: pointer;
   border-radius: 10px;
   transition: transform 0.5s ease; 
 }
-.col-1 path :hover{
-  transform: scale(1.1);
 
+.flags img:hover {
+  transform: scale(1.1);
 }
 
-.col-1 svg{
+.col-1 path {
   cursor: pointer;
   border-radius: 10px;
   transition: transform 0.5s ease; 
 }
-.col-1 svg:hover{
-  transform: scale(1.1);
 
+.col-1 path:hover {
+  transform: scale(1.1);
 }
 
-.img-fluid{
+.col-1 svg {
+  cursor: pointer;
+  border-radius: 10px;
   transition: transform 0.5s ease; 
 }
 
-.img-fluid:hover{
+.col-1 svg:hover {
+  transform: scale(1.1);
+}
+
+.img-fluid {
+  transition: transform 0.5s ease; 
+}
+
+.img-fluid:hover {
   transform: scale(2.0);
 }
-
 
 footer {
   width: 100%;
@@ -116,21 +112,53 @@ footer {
   bottom: 0;
 }
 
-#github{
+#github {
   cursor: pointer;
   transition: transform 0.5s ease; 
   font-size: large;
   color: rgb(212, 207, 255);
-  
 }
 
-#github:hover{
+#github:hover {
   color: white;
   transition: transform 0.5s ease; 
   transform: scale(1.1);
 }
 
+/* Media Queries para dispositivos móveis */
+@media only screen and (max-width: 390px) {
+  .container {
+    padding: 20px;
+    margin-top: 5rem;
+  }
 
+  .entry {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .small-image {
+    width: 100%;
+  }
+
+  #imgCol img {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  footer {
+    position: static;
+  }
+
+
+  /* Aumenta o tamanho dos ícones FontAwesome em telas menores */
+  .icon {
+    font-size: 30vw;
+  }
+}
 
 @media (max-width: 768px) {
   .container {
@@ -157,5 +185,10 @@ footer {
 
   footer {
     position: static;
+  }
+
+  /* Ajusta o tamanho dos ícones FontAwesome */
+  .icon {
+    font-size: 30vw;
   }
 }
