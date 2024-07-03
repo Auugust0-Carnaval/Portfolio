@@ -11,7 +11,6 @@ const Projects = () => {
                         <FontAwesomeIcon 
                             icon={faNodeJs} 
                             className="icon" 
-                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
                         />
                     </a>
                 </div>
@@ -20,7 +19,7 @@ const Projects = () => {
                         <FontAwesomeIcon 
                             icon={faAngular} 
                             className="icon" 
-                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
+                          
                         />
                     </a>
                 </div>
@@ -29,7 +28,7 @@ const Projects = () => {
                         <FontAwesomeIcon 
                             icon={faUnity} 
                             className="icon" 
-                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
+                             
                         />
                     </a>
                 </div>
@@ -38,7 +37,6 @@ const Projects = () => {
                         <FontAwesomeIcon 
                             icon={faJava} 
                             className="icon" 
-                            style={{ color: 'white', fontSize: '4vw', cursor: 'pointer' }} 
                         />
                     </a>
                 </div>

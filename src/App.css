@@ -14,6 +14,7 @@ body {
 }
 
 .entry {
+  margin-bottom: 25px;
   text-align: center;
   color: rgb(92, 77, 222);
   border-radius: 10px;
@@ -23,6 +24,7 @@ body {
   transition: color 0.4s ease;
   /* box-shadow: 0 0 0 1px rgba(62, 80, 244, 0.5); */
 }
+
 
 .entry h5:hover {
   color: rgba(62, 80, 244, 0.5);
@@ -125,8 +127,14 @@ footer {
   transform: scale(1.1);
 }
 
+.icon {
+  color: white;
+  font-size: 4vw;
+  cursor: pointer;
+}
+
 /* Media Queries para dispositivos móveis */
-@media only screen and (max-width: 390px) {
+@media (max-width: 414px) {
   .container {
     padding: 20px;
     margin-top: 5rem;
@@ -157,6 +165,7 @@ footer {
   /* Aumenta o tamanho dos ícones FontAwesome em telas menores */
   .icon {
     font-size: 30vw;
+    color: red;
   }
 }
 
@@ -189,6 +198,9 @@ footer {
 
   /* Ajusta o tamanho dos ícones FontAwesome */
   .icon {
-    font-size: 30vw;
+    font-size: 8vw;
+    color: white;
   }
 }
+
+
