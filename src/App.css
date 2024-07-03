@@ -134,40 +134,7 @@ footer {
 }
 
 /* Media Queries para dispositivos móveis */
-@media (max-width: 414px) {
-  .container {
-    padding: 20px;
-    margin-top: 5rem;
-  }
 
-  .entry {
-    width: 100%;
-  }
-
-  header {
-    width: 100%;
-  }
-
-  .small-image {
-    width: 100%;
-  }
-
-  #imgCol img {
-    margin-left: 0;
-    margin-top: 10px;
-  }
-
-  footer {
-    position: static;
-  }
-
-
-  /* Aumenta o tamanho dos ícones FontAwesome em telas menores */
-  .icon {
-    font-size: 30vw;
-    color: red;
-  }
-}
 
 @media (max-width: 768px) {
   .container {
@@ -198,7 +165,7 @@ footer {
 
   /* Ajusta o tamanho dos ícones FontAwesome */
   .icon {
-    font-size: 8vw;
+    font-size: 9vw;
     color: white;
   }
 }

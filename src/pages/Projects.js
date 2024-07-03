@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div className="project">
             <div className="row">
-                <div className="col-1 col-md-auto" id='nodejs'>
+                <div className="col-2 col-md-auto" id='nodejs'>
                     <a href='https://github.com/Auugust0-Carnaval/BYTEBOT'>
                         <FontAwesomeIcon 
                             icon={faNodeJs} 
@@ -14,7 +14,7 @@ const Projects = () => {
                         />
                     </a>
                 </div>
-                <div className="col-1 col-md-auto" id='angular'>
+                <div className="col-2 col-md-auto" id='angular'>
                     <a href='https://github.com/Auugust0-Carnaval/TCC-AmoPatasFrontend'>
                         <FontAwesomeIcon 
                             icon={faAngular} 
@@ -23,7 +23,7 @@ const Projects = () => {
                         />
                     </a>
                 </div>
-                <div className="col-1 col-md-auto" id='unity'>
+                <div className="col-2 col-md-auto" id='unity'>
                     <a href='https://github.com/Auugust0-Carnaval/2DGAME'>
                         <FontAwesomeIcon 
                             icon={faUnity} 
@@ -32,7 +32,7 @@ const Projects = () => {
                         />
                     </a>
                 </div>
-                <div className="col-1 col-md-auto" id='java'>
+                <div className="col-2 col-md-auto" id='java'>
                     <a href='https://github.com/Auugust0-Carnaval/JPA-API'>
                         <FontAwesomeIcon 
                             icon={faJava} 
