@@ -1,5 +1,11 @@
 const NavRoot = ({ text,changeLanguage}) => {
 
+    // function herName(){
+    //     var srt = "Gustavo";
+    //     var name = srt[0];
+    //     console.log(name);
+    //   }
+
     return (
         <nav className="navBar">
 

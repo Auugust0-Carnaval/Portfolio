@@ -160,7 +160,14 @@ footer {
   }
 
   footer {
-    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #619bff, #3a51ba);
+    color: rgb(212, 207, 255);
+    position: relative; 
+    bottom: 0;
   }
 
   /* Ajusta o tamanho dos ícones FontAwesome */
@@ -204,5 +211,64 @@ nav .col-md-auto{
   cursor: pointer;
 }
 
+.showProjects{
+  margin-top: 200px;
+  position: relative;
+  min-height: 800px; 
+  background-color: white;
+
+}
+
+
+.projectImage{
+  width: 300px;
+}
+
+
+.contentStacks {
+
+  width:1000px;
+  margin-left: 50%;   /* Mover o ponto inicial da div para o centro */
+  transform: translateX(-50%);  /* Mover a div para a esquerda para centralizar */
+  padding: 10px;
+  z-index: 0;
+  position: absolute;
+  top: -50px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.contentStacks p{
+  text-align: center;
+  
+
+}
+
+.contentStacks .col-4{
+  height: 490px;
+  text-align: center;
+
+}
+
+.col-4 .icon{
+  margin-top: 3rem;
+}
+
+.col-4 #code{
+ color: rgb(92, 77, 222);
+}
+
+.col-4 #database{
+  color: rgb(92, 77, 222);
+  
+}
+
+.col-4 #gearCode {
+  color: rgb(92, 77, 222);
+
+
+}
 
 

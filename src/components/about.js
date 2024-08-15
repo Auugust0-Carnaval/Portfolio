@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import userImage from "./Img/personProgrammer.png";
+import programmer from "./Img/personProgrammer.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 const About = ({text}) => {
@@ -23,7 +23,7 @@ const About = ({text}) => {
         </div>
         <div className="col-4" id="imgCol">
           {/* <FontAwesomeIcon icon={faHeart} className="heart-icon" onClick={changeColor}  style={{ color: color }}  /> */}
-          <img src={userImage} className="small-image" alt="User" />
+          <img src={programmer} className="small-image" alt="User" />
         </div>
     
       </div>

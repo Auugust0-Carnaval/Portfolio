@@ -5,6 +5,7 @@ import About from './components/about';
 import Projects from './pages/Projects';
 import Footer from './components/footer';
 import NavRoot from './components/navRoot';
+import ShowProject from './pages/showProject';
 
 const App = () => {
   const [language, setLanguage] = useState('en'); //setando valor inicial do idioma da aplicacao como ingles
@@ -12,6 +13,9 @@ const App = () => {
   const changeLanguage = (lang) => {
     setLanguage(lang); //atualiza o idioma conforme o valor passado no argumento (parametro lang)
   };
+
+
+
 
   
   const text = { //array de objetos contento o texto de cada idioma
@@ -37,7 +41,15 @@ const App = () => {
         <Header text={text[language].header} changeLanguage={changeLanguage} />
         <About text={text[language].about} />
         <Projects />
+        
+        
       </div>
+
+      <div className='container-fluid p-0'>
+          <ShowProject />
+      </div>
+     
+      
       <Footer text={text[language].footer} />
       </>
   );
