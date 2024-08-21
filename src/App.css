@@ -300,7 +300,7 @@ nav .col-md-auto{
 }
 
 
-/* aplicando animacao de keyframe no icon gear */
+/* aplicando animacao de keyframe nos icon */
 @keyframes spin { /*denonimei meu keyframe como spin*/
   from { transform: rotate(0deg); } /*defini o valor inicial do elemento como 0 graus*/
   to { transform: rotate(360deg); } /*defini o valor final do elemento como 360 graus*/
@@ -309,3 +309,33 @@ nav .col-md-auto{
 .showProjects .col-4:hover #gearCode {
   animation: spin 1s linear infinite; /*chamando e definindo o tempo da animacao como 1s e o tipo como linear e infinite*/
 }
+
+@keyframes rotatePulse {
+  0% {
+    transform: rotate(0deg) scale(1); /*defini o valor inicial do elemento como 0 graus e o valor final como 1*/
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1); /*defini o valor do elemento como 180 graus e o valor final como 1.1* quando esitver 50%*/
+  }
+  100% {
+    transform: rotate(360deg) scale(1); /*defini o valor final do elemento como 360 graus e o valor final como 1*/
+  }
+}
+
+.showProjects .col-4:hover #database {
+  animation: rotatePulse 2s ease-in-out infinite; /*chamando e definindo o tempo da animacao como 2s e o tipo como ease-in-out e infinite*/
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /*sobe o elemento para cima*/
+  }
+  50% {
+    transform: translateY(-10px); /*desce o elemento*/
+  }
+}
+
+.showProjects .col-4:hover #code {
+  animation: bounce 1s ease-in-out infinite; /*chamando aniamcoa e definindo o tempo como 1s e o tipo como ease-in-out e infinite*/
+}
+
