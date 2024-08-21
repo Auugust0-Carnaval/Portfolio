@@ -48,7 +48,10 @@ header {
 
 #about {
   padding-top: 1%;
+  
 }
+
+
 
 #imgCol img {
   margin-left: 20px;
@@ -58,11 +61,17 @@ header {
 
 #content p {
   transition: transform 0.5s ease; 
+  border: solid white 1px ;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 #content p:hover {
   cursor: pointer;
   transform: scale(1.1); 
+  border: solid white 1px ;
+  border-radius: 5px;
+  
 }
 
 .flags img {
@@ -227,7 +236,7 @@ nav .col-md-auto{
 
 .contentStacks {
 
-  width:1000px;
+  width:1240px;
   margin-left: 50%;   /* Mover o ponto inicial da div para o centro */
   transform: translateX(-50%);  /* Mover a div para a esquerda para centralizar */
   padding: 10px;
@@ -271,4 +280,32 @@ nav .col-md-auto{
 
 }
 
+.title-skill{
+  margin-top: 20px;
+}
 
+.content-one{
+  padding: 10px;
+}
+
+.content-one h6{
+  color: #575757;
+  font-size: 15px;
+}
+
+.subTitle{
+  color:  rgb(92, 77, 222);
+  margin-top:5rem;
+
+}
+
+
+/* aplicando animacao de keyframe no icon gear */
+@keyframes spin { /*denonimei meu keyframe como spin*/
+  from { transform: rotate(0deg); } /*defini o valor inicial do elemento como 0 graus*/
+  to { transform: rotate(360deg); } /*defini o valor final do elemento como 360 graus*/
+}
+
+.showProjects .col-4:hover #gearCode {
+  animation: spin 1s linear infinite; /*chamando e definindo o tempo da animacao como 1s e o tipo como linear e infinite*/
+}

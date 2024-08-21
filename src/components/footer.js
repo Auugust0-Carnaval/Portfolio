@@ -6,7 +6,7 @@ const Footer = ({text}) => {
     return (
         <footer className="align-items-center">
             <div className="row align-items-center">
-                <p>
+                <p className="align-items-center text-center" >
                     <a href="https://github.com/Auugust0-Carnaval"><FontAwesomeIcon icon={faGithub} id="github" /></a>
                     {text}
                 </p>
