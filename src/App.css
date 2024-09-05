@@ -223,7 +223,7 @@ nav .col-md-auto{
 .showProjects{
   margin-top: 200px;
   position: relative;
-  min-height: 800px; 
+  min-height: 500px; 
   background-color: white;
 
 }
@@ -338,4 +338,15 @@ nav .col-md-auto{
 .showProjects .col-4:hover #code {
   animation: bounce 1s ease-in-out infinite; /*chamando aniamcoa e definindo o tempo como 1s e o tipo como ease-in-out e infinite*/
 }
+
+.gridWorks{
+  background-color: white;
+  min-height: 600px;
+  
+}
+
+.gridWorks .grid{
+  text-align: center;
+}
+
 
