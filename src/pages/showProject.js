@@ -1,7 +1,5 @@
 // import programmer from "../components/Img/2dgame.jpg";;
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { faGear } from '@fortawesome/free-solid-svg-icons';

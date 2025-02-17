@@ -48,9 +48,6 @@ const App = () => {
       <div className='worksContent'>
         <Works />
       </div>
-
-     
-      
       <Footer text={text[language].footer} />
       </>
   );
