@@ -7,7 +7,7 @@ import Footer from './components/footer';
 import NavRoot from './components/navRoot';
 import ShowProject from './pages/showProject';
 
-import Works from './pages/works';
+import Works from './components/works';
 
 const App = () => {
   const [language, setLanguage] = useState('en'); //setando valor inicial do idioma da aplicacao como ingles

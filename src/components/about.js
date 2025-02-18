@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import programmer from "./Img/personProgrammer.png";
+import botImage from './Img/botProject.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 const About = ({text}) => {
