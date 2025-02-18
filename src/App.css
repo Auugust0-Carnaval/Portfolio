@@ -114,13 +114,19 @@ header {
 
 footer {
   width: 100%;
-  text-align: center;
+  text-align: center !important;
   padding: 0;
   box-sizing: border-box;
   background: linear-gradient(to right, #619bff, #3a51ba);
   color: rgb(212, 207, 255);
   position: fixed; /* Use fixed if you want the footer to stay at the bottom of the screen */
   bottom: 0;
+  
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
 }
 
 #github {
@@ -168,7 +174,7 @@ footer {
     margin-top: 10px;
   }
 
-  footer {
+  /* footer {
     width: 100%;
     text-align: center;
     padding: 0;
@@ -177,7 +183,7 @@ footer {
     color: rgb(212, 207, 255);
     position: relative; 
     bottom: 0;
-  }
+  } */
 
   /* Ajusta o tamanho dos ícones FontAwesome */
   .icon {
