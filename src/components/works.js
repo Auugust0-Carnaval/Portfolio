@@ -11,7 +11,7 @@ const Works = (text, changeLanguage) => {
     };
 
     const handleMouseLeave = () => {
-        setHovered(null); //atualiza o estado hovered para nulo quando o mouse sai da area da imagem     
+        setHovered(null); //atualiza o estado hovered para nulo quando o mouse sai da área da imagem     
     };
 
     return (
@@ -26,11 +26,20 @@ const Works = (text, changeLanguage) => {
                             onMouseLeave={handleMouseLeave}
                             key={index}
                         >
-                            {hovered === index ? ( // SE hovered for igual a index, exibe o botao para visitar o repositorio
-                                <div className="overlay">
-                                    <button className="btn btn-outline-primary">VISIT REPOSITORE</button>
+                            {hovered === index ? ( // SE hovered for igual a index, exibe o botão para visitar o repositório
+                                <div className="overlay d-flex flex-column justify-content-center align-items-center">
+                                    <div className="row">
+                                        <div className="col">
+                                            <h3 className="text-primary">Projeto desenvolvido na Unity Engine em C#</h3>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col">
+                                            <button className="btn btn-outline-primary">VISIT REPOSITORY</button>
+                                        </div>
+                                    </div>
                                 </div>
-                            ) : ( // SENAO exibe a imagem
+                            ) : ( // SENÃO exibe a imagem
                                 <img src={image} className="small-image" alt="work" />
                             )}
                         </div>
