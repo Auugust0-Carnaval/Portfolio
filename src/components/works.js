@@ -16,7 +16,7 @@ const Works = ({ text, changeLanguage }) => {
 
     return (
         <div className="gridWorks">
-            <h1 className="text-center">Works</h1>
+            <h1 className="text-center text-primary">Works</h1>
             <div className="grid">
                 <div className="row">
                     {[botImage, pawImage, heroImage].map((image, index) => (
