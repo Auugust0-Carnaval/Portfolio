@@ -3,7 +3,7 @@ import botImage from './Img/botProject.jpg';
 import pawImage from './Img/pawimg.jpg';
 import heroImage from './Img/heroImage.jpg';
 
-const Works = (text, changeLanguage) => {
+const Works = ({ text, changeLanguage }) => {
     const [hovered, setHovered] = useState(null); // setando valor inicial do estado hovered como nulo
 
     const handleMouseEnter = (index) => {
@@ -30,7 +30,7 @@ const Works = (text, changeLanguage) => {
                                 <div className="overlay d-flex flex-column justify-content-center align-items-center">
                                     <div className="row">
                                         <div className="col">
-                                            <h3 className="text-primary">Projeto desenvolvido na Unity Engine em C#</h3>
+                                            <h3 className="text-primary">{text}</h3>
                                         </div>
                                     </div>
                                     <div className="row">
